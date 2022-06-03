@@ -1,0 +1,70 @@
+﻿body {
+}
+
+.oculto {
+    visibility: hidden
+}
+
+.gridview {
+    margin: 5px;
+    background-color: #FDCA40;
+    border-color: transparent;
+}
+
+    .gridview th { /* ENCABEZADOS */
+        border: solid;
+        border-color: #453750;
+        background-color: #453750;
+        padding: 5px;
+        color: white;
+        font-size: small;
+    }
+
+    .gridview tr { /* FILAS */
+        text-align: left;
+        background-color: #FDCA40;
+        border: solid;
+        border-color: #FDCA40;
+        border-bottom-width: 3px;
+        border-bottom-color: white;
+        font-size: x-small;
+    }
+
+    .gridview td { /* CELDAS */
+        border: none;
+        padding: 10px;
+        margin: 5px;
+        background-color: #FDCA40;
+        color: #453750;
+    }
+
+.gridviewBusqueda {
+    margin: 5px;
+    background-color: #e89319; /*#e89319  #ffaa27    fondo #2b1d2f*/
+    border-color: transparent;
+}
+
+    .gridviewBusqueda th { /* ENCABEZADOS */
+        padding: 5px;
+        color: whitesmoke;
+        font-size: small;
+        border-bottom-width: 3px;
+        border-bottom-color: white;
+    }
+
+    .gridviewBusqueda tr { /* FILAS */
+        text-align: left;
+        /*background-color: yellow;*/
+        font-size: x-small;
+    }
+
+    .gridviewBusqueda td { /* CELDAS */
+        border: none;
+        padding: 10px;
+        margin: 5px;
+        background-color: lightgray;
+        color: #453750;
+        border-bottom: solid;
+        border-bottom-width: 3px;
+        border-bottom-color: #eeeeee;
+    }
